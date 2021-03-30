@@ -219,14 +219,14 @@ h3 {
 	margin: auto;
 }
 /*------------------------------------------------------------- Media Query   ---*/
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
 	.flexbox-item-footer {
 		position: absolute;
 		bottom: 0;
 		width: 100%;
 		height: 5rem;
 	}
-}
+} */
 
 @media (max-width: 768px) {
 	.fonting-640 {
