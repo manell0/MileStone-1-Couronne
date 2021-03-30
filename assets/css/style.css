@@ -11,48 +11,25 @@ font-family: 'Open Sans', sans-serif;*/
 }
 
 html {
-	padding-top: 2.5em;
+	padding-top: 3.4em;
 	background-color: #f2f2f2;
 }
 body {
-	height: 20%;
-}
-
-.bg {
 	background-image: url('../images/couronne-back.png');
-	height: 100%;
 	background-position: center;
-	/* background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 /*----------------------------------------------------- Colors ---*/
-.brown {
-	background-color: #87655a;
-	color: #f2f2f2;
-}
-.whiteish {
-	color: #f2f2f2;
-}
 
 .blueish.h3-text-icon a {
 	/* color: #b7cfe1; */
 	color: #4282b3;
-	
 }
 
 /*--------------------------------------------  Site Aligns and spaces ---*/
-.center {
-	margin-left: 0;
-	margin-right: 0;
-	width: 100%;
-	padding: 10px;
-	/* border-radius: 0.3em 0.3em; */
-}
-.space {
-	margin-top: 10px;
-	padding-top: 10px;
-}
+
 .z-back {
 	z-index: -1;
 }
@@ -70,7 +47,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 0.08em;
 	color: #003f6e;
-	
 }
 
 /*--------------------------------------------------- Header ---*/
@@ -79,35 +55,29 @@ header.fixed {
 	top: 0;
 	left: 0;
 	width: 100%;
-
-	/* text-align: center; */
 }
-.header-area-space {
+/* .header-area-space {
 	padding-bottom: 12px;
 	margin-bottom: auto;
-}
+} */
 /*++++++++++++++++++++++++++++++++++++++++++++++++*/
 .center-img {
-	/* background: url('../images/couronne-large-transparent\ .png'); */
-	background: url('../images/couronne-large-transparent.png');
-	padding: 5px;
+	background: url('../images/couronne-large-transparent-orginal-removebg-preview.png');
+	padding: 5em;
 	background-repeat: no-repeat;
-
+	align-content: center;
 	background-size: contain;
 	min-height: 100px;
 	margin: auto;
 	width: 100%;
-	/* border: 1px solid rosybrown; */
-	/* border-radius: 3px; */
-	z-index: -1;
 }
-.cover-area {
+/* .cover-area {
 	height: 8em;
 	background-color: black;
-}
+} */
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*------------------------------------ Header Nav Menu ---*/
+/*------------------------------------------------------- Header Nav Menu ---*/
 nav {
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 700;
@@ -119,10 +89,9 @@ nav {
 	background-color: #4282b3;
 	background-color: rgba(0, 49, 130, 0.49);
 	overflow: hidden;
-	max-width: 100%;0
+	max-width: 100%;
 	color: transparent;
 }
-
 
 /* Nav Bar */
 .menu a {
@@ -149,7 +118,7 @@ nav {
 	/* color: rgba(34.6 12 64 / 30%);
 	color: #ffdfe3;
 	color: hsla(120, 60%, 70%, 0.3); */
-	color:#ececec;
+	color: #ececec;
 }
 
 /* Center-Nav*/
@@ -159,7 +128,6 @@ nav {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
 }
 /* Left-Nav */
 .menu-left {
@@ -190,8 +158,6 @@ h3 {
 	color: white;
 	font-size: 36px;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
-	/*position: relative;
-	 background-color: #f2f2f2; */
 	overflow: hidden;
 	max-width: 100%;
 	font-weight: bold;
@@ -201,7 +167,6 @@ h3 {
 .h3-text-icon a {
 	font-family: 'Exo 2', sans-serif;
 	float: left;
-	/* color: #bbf3ff; */
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -218,13 +183,70 @@ h3 {
 	color: rosybrown;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*------------------------------------------------- Hideing   ---*/
-.hideing {
-	visibility: hidden;
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+.flexbox-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+.flexbox-item {
+	width: 100%;
+	margin: 0;
+	/* border: 1px solid #87655a; */
+}
+.flexbox-rules {
+	min-height: 10px;
+	padding: 0em 1em 1em 1em;
+}
+/* .flexbox-item-2 {
+	min-height: 100px;
+	padding: 1em;
+
+} */
+.flexbox-story {
+	min-height: 10px;
+	padding: 0em 1em 1em 1em;
 }
 
-/*------------------------------------------------- Media Query   ---*/
+.flexbox-item-footer {
+	background-color: rgba(0, 49, 130, 0.49);
+
+	/* margin-top: 50px;
+	
+	position:sticky; */
+	margin: auto;
+}
+/*------------------------------------------------------------- Media Query   ---*/
+@media (min-width: 1200px) {
+	.flexbox-item-footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 5rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.fonting-640 {
+		font-size: 52px;
+		padding: 1em 0em 1em 0em;
+	}
+}
+
+@media (max-width: 640px) {
+	.fonting-640 {
+		font-size: 40px;
+		padding: 1em 0em 1em 0em;
+	}
+}
+
 @media (max-width: 576px) {
+	html {
+		padding-top: 2.5em;
+	}
+
 	.hide {
 		display: none;
 	}
@@ -236,67 +258,52 @@ h3 {
 	}
 
 	.fonting {
-		color: red;
+		text-shadow: #bb0202 1px 1px;
+		font-size: 24px;
+		font-weight: bolder;
+		margin-top: 3em;
+		margin-bottom: 3em;
 	}
 	.flexbox-container {
 		display: flex;
 		flex-wrap: wrap;
-
-		/* justify-content: space-between; */
 		align-items: flex-start;
 		align-content: center;
-
+		/* justify-content: space-between; */
 		/*align-items: center;*/
 	}
-	.logo {
-		background-size: cover;
-	}
-	.hideing-small {
-		display: none;
-	}
+}
+/*++++++++++++++++++++++++++++++ More colors*/
+
+.sea-green {
+	color: rgba(62, 136, 91, 1);
+}
+.cultured {
+	color: rgba(242, 242, 242, 1);
+}
+.indigo-dye {
+	color: rgba(33, 65, 89, 1);
+}
+.tomato {
+	color: rgba(254, 101, 79, 1);
+}
+.red-salsa {
+	color: rgba(240, 58, 71, 1);
 }
 /*+++++++++++++++++++++++++++++++++++++++++++++++++*/
-.flexbox-container {
-	display: flex;
-	align-items: flex-start;
+/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+#page-container {
+	position: relative;
+	min-height: 100vh;
 }
-.flexbox-item {
+
+#content-wrap {
+	padding-bottom: 2.5rem; /* Footer height */
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
 	width: 100%;
-	margin: 0px;
-	/* border: 1px solid #87655a; */
+	height: 2.5rem; /* Footer height */
 }
-.flexbox-item-1 {
-	min-height: 30px;
-}
-.flexbox-item-2 {
-	min-height: 100px;
-}
-.flexbox-item-3 {
-	min-height: 10em;
-}
-.flexbox-item-footer{
-	background-color: rgba(0, 49, 130, 0.49);
-	
-	margin-top: 100px;
-	position:sticky;
-}
-
-/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
-
-.sea-green{
-color: 	rgba(62, 136, 91, 1);
-}
-.cultured{
-	color:rgba(242, 242, 242, 1) ;
-}
-.indigo-dye{
-color: 	rgba(33, 65, 89, 1);
-}
-.tomato{
-color: 	rgba(254, 101, 79, 1);
-}
-.red-salsa{
-color: 	rgba(240, 58, 71, 1);
-}
-/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
