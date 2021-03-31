@@ -261,6 +261,9 @@ h3 {
 		font-size: 52px;
 		padding: 1em 0em 1em 0em;
 	}
+	.hides {
+		visibility: hidden;
+	}
 }
 
 @media (max-width: 640px) {
