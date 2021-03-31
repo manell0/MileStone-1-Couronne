@@ -1,5 +1,4 @@
-# MileStone-1-Couronne
-# Couronne The Classic Bord Game
+# Couronne, The Classic Bord Game
 
 ## Milestone project 1 (Code Institute)
 
@@ -54,7 +53,7 @@ The most important requirements were to create a responsive and static website w
 
 ## Ideal User Demographic
 
-### The ideal user of this website is:
+### The ideal user of this website is
 
 - People who already like couronne
 - People who want to learn couronne
@@ -142,7 +141,7 @@ Wireframe mockups were created in a Figma Workspace with providing a positive us
 
 ### Color Scheme
 
-The main colours used throughout the website are a mixture of Blue, Some red and White with gray accents.
+The main colours used throughout the website are a mixture of Blue, Some brown and White with gray/blue accents.
 
 The chosen color scheme is a reflection of the nerdy little group expected to use this site.
 
@@ -213,8 +212,10 @@ Each page of the website features a consistent responsive navigational system:
 
 # Issues and Bugs
 
-My mentor thought I should make my first suggestion a little more fansy, so I set up the navigation bar at the top to make the page a little more spacious.
-So now I have two variants of my page. And it has taken a lot of my time!
+- My mentor thought I should make my first suggestion a little more fansy, so I set up the navigation bar at the top to make the page a little more spacious.
+  So now I have two variants of my page. And it has taken a lot of my time!
+
+- Had difficulty getting my footer in place. Took help from google and found Dominic Fraser. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
 # Technologies Used
 
@@ -298,6 +299,8 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 
 - I have used [Rebecca Tracey-Timoneys](https://github.com/rebeccatraceyt) README file [KryanLive](https://github.com/rebeccatraceyt/KryanLive/blob/master/README.md) as a guide / template for this README file.
 
+- Thanks to Dominic Fraser who has a great explanation of how to put your footer in place. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+
 ## Content
 
 -
@@ -315,7 +318,7 @@ The developer consulted multiple sites in order to better understand the code th
 - [W3Schools](https://www.w3schools.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Css Tricks](https://css-tricks.com/)
-- []()
+- [COLORS](https://coolors.co/)
 
 # Acknowledgements
 
