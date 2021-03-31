@@ -251,13 +251,6 @@ h3 {
 	}
 }
 
-@media (min-width: 1280px) {
-	.menu a {
-		letter-spacing: 5px;
-		padding: 0 1em 0 1em;
-	}
-}
-
 @media (min-width: 640px) {
 	.hideing {
 		display: none;
