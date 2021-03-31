@@ -21,18 +21,42 @@ body {
 	background-size: cover;
 }
 
+#page-container {
+	position: relative;
+	min-height: 100%;
+}
+
+#z-front {
+	z-index: 1;
+}
+
+#z-back {
+	z-index: -1;
+}
+
+/*----------------------------------------------------- Images---*/
+.center-img {
+	background: url('../images/couronne-large-transparent-orginal-removebg-preview.png');
+	padding: 5em;
+	background-repeat: no-repeat;
+	align-content: center;
+	background-size: contain;
+	min-height: 100px;
+	margin: auto;
+	width: 100%;
+}
 /*----------------------------------------------------- Colors ---*/
 
 .blueish.h3-text-icon a {
 	/* color: #b7cfe1; */
 	color: #4282b3;
+	color: #af5b5b;
+	color: aliceblue;
+	color: rosybrown;
 }
 
 /*--------------------------------------------  Site Aligns and spaces ---*/
 
-.z-back {
-	z-index: -1;
-}
 .margins {
 	margin-left: 1em;
 	margin-right: 0.3em;
@@ -46,37 +70,12 @@ body {
 .sans {
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 0.08em;
+	line-height: 2em;
 	color: #003f6e;
 }
 
 /*--------------------------------------------------- Header ---*/
-header.fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-/* .header-area-space {
-	padding-bottom: 12px;
-	margin-bottom: auto;
-} */
-/*++++++++++++++++++++++++++++++++++++++++++++++++*/
-.center-img {
-	background: url('../images/couronne-large-transparent-orginal-removebg-preview.png');
-	padding: 5em;
-	background-repeat: no-repeat;
-	align-content: center;
-	background-size: contain;
-	min-height: 100px;
-	margin: auto;
-	width: 100%;
-}
-/* .cover-area {
-	height: 8em;
-	background-color: black;
-} */
 
-/*++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*------------------------------------------------------- Header Nav Menu ---*/
 nav {
 	font-family: 'Exo 2', sans-serif;
@@ -84,10 +83,16 @@ nav {
 	font-size: 150%;
 }
 
+header.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
 .menu {
 	position: relative;
-	background-color: #4282b3;
-	background-color: rgba(0, 49, 130, 0.49);
+	background-color: #4183b1;
 	overflow: hidden;
 	max-width: 100%;
 	color: transparent;
@@ -96,11 +101,10 @@ nav {
 /* Nav Bar */
 .menu a {
 	font-family: 'Exo 2', sans-serif;
-	/* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-	-webkit-text-stroke: 0.3px black;
+	/* -webkit-text-stroke: 0.3px black; */
 	font-size: 150%;
 	float: left;
-	color: #ff3957;
+	color: #fff;
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -108,17 +112,15 @@ nav {
 
 /* Change the color of links on hover */
 .menu a:hover {
-	color: rgba(34.6 12 64 / 30%);
 	color: hsl(0, 0%, 95%);
-	font-size: 36px;
+	font-size: 35.8px;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 .menu a.active {
-	/* color: rgba(34.6 12 64 / 30%);
-	color: #ffdfe3;
-	color: hsla(120, 60%, 70%, 0.3); */
-	color: #ececec;
+	color: #ffe0e7;
+	color: rosybrown;
+	color: aliceblue;
 }
 
 /* Center-Nav*/
@@ -140,7 +142,7 @@ nav {
 	padding-right: 5%;
 }
 
-/*-------------------------------------------- Text Styling ---*/
+/*------------------------------------------------------------------------------- Text Styling ---*/
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
@@ -153,23 +155,31 @@ h3 {
 	margin-left: 0.55em;
 	margin-top: 1em;
 }
-/*+++++++++++++++++++++++++++++++ h3 Text and Icons +++*/
+
+.couronne-style {
+	margin: 0.5em 0 0.5em 0;
+	color: #4183b1;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+/*++++++++++++++++++------------------------------------+++++++++++++ h3 Text and Icons +++*/
+
 .h3-text-icon {
 	color: white;
-	font-size: 36px;
+	font-size: 40px;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 	overflow: hidden;
 	max-width: 100%;
-	font-weight: bold;
+
+	/* font-weight: bold; */
 }
 
-/* Nav Bar */
 .h3-text-icon a {
 	font-family: 'Exo 2', sans-serif;
 	float: left;
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 2px;
+	margin-left: 0.5em;
 }
 
 /* Change the color of links on hover */
@@ -182,9 +192,21 @@ h3 {
 .h3-text-icon a.active {
 	color: rosybrown;
 }
-/*++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*  ---------------------------------------------------++++++++++++++------ Text Links*/
+.italic {
+	font-style: italic;
+}
+.italic a {
+	color: rosybrown;
+	background-color: transparent;
+	text-decoration: none;
+}
+.italic a:hover {
+	font-weight: bolder;
+	color: rosybrown;
+}
+/*  ---------------------------------------------------++++++++++++++------ FlexBox */
 .flexbox-container {
 	display: flex;
 	align-items: flex-start;
@@ -200,34 +222,31 @@ h3 {
 	min-height: 10px;
 	padding: 0em 1em 1em 1em;
 }
-/* .flexbox-item-2 {
-	min-height: 100px;
-	padding: 1em;
 
-} */
 .flexbox-story {
 	min-height: 10px;
 	padding: 0em 1em 1em 1em;
 }
 
-.flexbox-item-footer {
-	background-color: rgba(0, 49, 130, 0.49);
+/* .flexbox-item-social {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
 
-	/* margin-top: 50px;
-	
-	position:sticky; */
 	margin: auto;
+	min-height: 20px;
 }
-/*------------------------------------------------------------- Media Query   ---*/
-/* @media (min-width: 1200px) {
-	.flexbox-item-footer {
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-		height: 5rem;
-	}
-} */
 
+.flexbox-footer-contact {
+	min-height: 100px;
+	padding: 0em 1em 1em 1em;
+} */
+/*------------------------------------------------------------- Media Query   ---*/
+@media (min-width: 640px) {
+	.hideing {
+		display: none;
+	}
+}
 @media (max-width: 768px) {
 	.fonting-640 {
 		font-size: 52px;
@@ -238,7 +257,10 @@ h3 {
 @media (max-width: 640px) {
 	.fonting-640 {
 		font-size: 40px;
-		padding: 1em 0em 1em 0em;
+		margin: 0.3em 0em 0.3em 0em;
+	}
+	.letter-space {
+		line-height: normal;
 	}
 }
 
@@ -250,19 +272,33 @@ h3 {
 	.hide {
 		display: none;
 	}
+	.couronne-styleing {
+		margin: 0.5em 0 0.5em 0;
+		color: #4183b1;
+		text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+	}
 
 	nav {
 		font-family: 'Exo 2', sans-serif;
+
 		font-weight: 700;
 		font-size: 120%;
 	}
 
 	.fonting {
-		text-shadow: #bb0202 1px 1px;
-		font-size: 24px;
+		/* text-shadow: #bb0202 1px 1px; */
+
+		font-family: 'Exo 2', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 0.3em;
+		font-size: 36px;
+		text-align: center;
 		font-weight: bolder;
-		margin-top: 3em;
-		margin-bottom: 3em;
+		margin-top: 1.5em;
+		/* margin-bottom: 1.5em; */
+
+		color: #4183b1;
+		text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 	}
 	.flexbox-container {
 		display: flex;
@@ -273,37 +309,23 @@ h3 {
 		/*align-items: center;*/
 	}
 }
-/*++++++++++++++++++++++++++++++ More colors*/
 
-.sea-green {
-	color: rgba(62, 136, 91, 1);
-}
-.cultured {
-	color: rgba(242, 242, 242, 1);
-}
-.indigo-dye {
-	color: rgba(33, 65, 89, 1);
-}
-.tomato {
-	color: rgba(254, 101, 79, 1);
-}
-.red-salsa {
-	color: rgba(240, 58, 71, 1);
-}
 /*+++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
-#page-container {
-	position: relative;
-	min-height: 100vh;
-}
+/*++++++++++++++++++++++++++++++++++++++++++ Footer +++++++*/
 
 #content-wrap {
 	padding-bottom: 2.5rem; /* Footer height */
+}
+
+.footer-right {
+	float: right;
+
+	padding: 0.4em 0.2em 0 0;
 }
 
 #footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 2.5rem; /* Footer height */
+	height: 0; /* Footer height */
 }
