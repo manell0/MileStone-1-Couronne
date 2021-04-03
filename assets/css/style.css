@@ -53,6 +53,7 @@ body {
 	color: #af5b5b;
 	color: aliceblue;
 	color: rosybrown;
+	/* color: rgb(184, 184, 184); */
 }
 
 /*--------------------------------------------  Site Aligns and spaces ---*/
@@ -76,7 +77,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 0.08em;
 	line-height: 2em;
-	color: #003f6e;
 }
 
 /*--------------------------------------------------- Header ---*/
@@ -85,7 +85,7 @@ body {
 nav {
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 700;
-	font-size: 150%;
+	font-size: 160%;
 }
 
 header.fixed {
@@ -99,6 +99,8 @@ header.fixed {
 	position: relative;
 
 	background-color: #4183b1;
+	background-color: rgb(0, 107, 150);
+	background-color: #237386;
 	overflow: hidden;
 	max-width: 100%;
 	color: transparent;
@@ -111,6 +113,7 @@ header.fixed {
 	font-size: 150%;
 	float: left;
 	color: #fff;
+
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -119,14 +122,17 @@ header.fixed {
 /* Change the color of links on hover */
 .menu a:hover {
 	color: hsl(0, 0%, 95%);
-	font-size: 35.8px;
-	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+	color: rgb(184, 184, 184);
+	color: rosybrown;
+
+	text-shadow: -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 .menu a.active {
 	color: #ffe0e7;
 	color: rosybrown;
 	color: aliceblue;
+	color: rgb(184, 184, 184);
 }
 
 /* Center-Nav*/
@@ -165,6 +171,7 @@ h3 {
 .couronne-style {
 	margin: 0.5em 0 0.5em 0;
 	color: #4183b1;
+	color: #237386;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 /*++++++++++++++++++------------------------------------+++++++++++++ h3 Text and Icons +++*/
@@ -172,6 +179,7 @@ h3 {
 .h3-text-icon {
 	color: white;
 	font-size: 40px;
+	font-weight: bold;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 	overflow: hidden;
 	max-width: 100%;
@@ -223,6 +231,7 @@ h3 {
 .flexbox-item {
 	width: 100%;
 	margin: 0;
+	padding: 1em;
 	/* border: 1px solid #87655a; */
 }
 .flexbox-rules {
@@ -235,21 +244,11 @@ h3 {
 	padding: 0em 1em 1em 1em;
 }
 
-/* .flexbox-item-social {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-evenly;
-
-	margin: auto;
-	min-height: 20px;
-}
-
-.flexbox-footer-contact {
-	min-height: 100px;
-	padding: 0em 1em 1em 1em;
-} */
 /*------------------------------------------------------------- Media Query   ---*/
 @media (min-width: 1024px) {
+	nav {
+		font-size: 180%;
+	}
 	.menu a {
 		letter-spacing: 6px;
 		padding: 0 0.6em 0 0.6em;
@@ -352,5 +351,5 @@ h3 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 0; /* Footer height */
+	height: ; /* Footer height */
 }
