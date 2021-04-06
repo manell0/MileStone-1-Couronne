@@ -20,6 +20,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+ul {
+	padding-left: 1em;
+}
 
 #page-container {
 	position: relative;
@@ -35,25 +38,47 @@ body {
 }
 
 /*----------------------------------------------------- Images---*/
-.center-img {
+.index-img {
 	background: url('../images/couronne-large-transparent-orginal-removebg-preview.png');
+
 	padding: 5em;
 	background-repeat: no-repeat;
 	align-content: center;
 	background-size: contain;
-	min-height: 100px;
+	min-height: 10px;
+	margin: auto;
+	width: 100%;
+}
+.rules-img {
+	background: url('../images/couronne-rules.png');
+
+	padding: 5em;
+	background-repeat: no-repeat;
+	align-content: center;
+	background-size: contain;
+	min-height: 10px;
+	margin: auto;
+	width: 100%;
+}
+
+.story-img {
+	background: url('../images/couronne-ringar.png');
+
+	padding: 5em;
+	background-repeat: no-repeat;
+	align-content: center;
+	background-size: contain;
+	min-height: 10px;
 	margin: auto;
 	width: 100%;
 }
 /*----------------------------------------------------- Colors ---*/
 
-.blueish.h3-text-icon a {
-	/* color: #b7cfe1; */
-	color: #4282b3;
-	color: #af5b5b;
-	color: aliceblue;
+.brownish.h3-text-icon a {
 	color: rosybrown;
-	/* color: rgb(184, 184, 184); */
+}
+.blueish.h3-text-icon a {
+	color: #237386;
 }
 
 /*--------------------------------------------  Site Aligns and spaces ---*/
@@ -98,8 +123,6 @@ header.fixed {
 .menu {
 	position: relative;
 
-	background-color: #4183b1;
-	background-color: rgb(0, 107, 150);
 	background-color: #237386;
 	overflow: hidden;
 	max-width: 100%;
@@ -109,7 +132,7 @@ header.fixed {
 /* Nav Bar */
 .menu a {
 	font-family: 'Exo 2', sans-serif;
-	/* -webkit-text-stroke: 0.3px black; */
+
 	font-size: 150%;
 	float: left;
 	color: #fff;
@@ -121,17 +144,12 @@ header.fixed {
 
 /* Change the color of links on hover */
 .menu a:hover {
-	color: hsl(0, 0%, 95%);
-	color: rgb(184, 184, 184);
 	color: rosybrown;
 
 	text-shadow: -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 .menu a.active {
-	color: #ffe0e7;
-	color: rosybrown;
-	color: aliceblue;
 	color: rgb(184, 184, 184);
 }
 
@@ -170,7 +188,6 @@ h3 {
 
 .couronne-style {
 	margin: 0.5em 0 0.5em 0;
-	color: #4183b1;
 	color: #237386;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
@@ -225,7 +242,7 @@ h3 {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-evenly;
-
+	margin-bottom: 3em;
 	align-items: flex-start;
 }
 .flexbox-item {
@@ -288,9 +305,12 @@ h3 {
 		margin-left: 0;
 		margin-right: 0;
 	}
+	.hides-640 {
+		display: none;
+	}
 }
 
-@media (max-width: 576px) {
+@media (max-width: 639px) {
 	html {
 		padding-top: 2.5em;
 	}
@@ -321,7 +341,6 @@ h3 {
 		text-align: center;
 		font-weight: bolder;
 		margin-top: 1.5em;
-		/* margin-bottom: 1.5em; */
 
 		color: #4183b1;
 		text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
@@ -351,5 +370,5 @@ h3 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: ; /* Footer height */
+	height: 0; /* Footer height */
 }
