@@ -24,6 +24,13 @@ ul {
 	padding-left: 1em;
 }
 
+iframe {
+	margin-top: 1em;
+	width: 360px;
+	height: 200px;
+	border-radius: 0.5em;
+}
+
 #page-container {
 	position: relative;
 	min-height: 100%;
