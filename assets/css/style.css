@@ -72,6 +72,9 @@ ul {
 	margin: auto;
 	width: 100%;
 }
+.movie {
+	margin: auto;
+}
 /*----------------------------------------------------- Colors ---*/
 
 .brownish.h3-text-icon a {
@@ -371,4 +374,39 @@ h3 {
 	bottom: 0;
 	width: 100%;
 	height: 0; /* Footer height */
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++ Form Section +++++++*/
+.form-control {
+	padding: 1em;
+	margin: 1em;
+	background-color: #e8ecff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button[type='submit'] {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #fafafa;
+	background-color: #237386;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*--------------------------------------------------------------------- Media Queries Form*/
+@media (min-width: 992px) {
+	.center-form {
+		padding-top: 10px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
+	}
+}
+
+@media (max-width: 360px) {
+	.center-form {
+		padding-top: 10px;
+
+		margin: 0 1em 0 0;
+		max-width: 90%;
+	}
 }
