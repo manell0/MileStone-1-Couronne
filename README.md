@@ -181,9 +181,9 @@ Each page of the website features a consistent responsive navigational system:
 
 #### Contact Page
 
-- [ ] The contact page is unchanged regardless of the size of devices used. In addition to the header (see above).
+- [ x ] The contact page is unchanged regardless of the size of devices used. In addition to the header (see above).
 
-- [ ] Contact Form - The form is not validated.
+- [ x ] Contact Form - The form is not validated.
   - Depending on the time, maybe I just make the contact link only to ba a meil to link ....
 
 ### Existing Features
@@ -200,7 +200,7 @@ Each page of the website features a consistent responsive navigational system:
 
 ## Features to Implement in the future
 
-- [ ] Make the contact page a separate page where you can write a message directly on the site and not just an email to link
+- [ x ] Make the contact page a separate page where you can write a message directly on the site and not just an email to link
 
 - ### Merchandise Shop
 
@@ -229,9 +229,13 @@ Each page of the website features a consistent responsive navigational system:
 ### Additional Languages Used
 
 - [ ] [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-  - Implement bla bla bla...
+  - No JavaScript Implemented yet
 
 ### Frameworks, Libraries & Programs Used
+
+- Bootstrap 4.3.1 used
+- Flexbox used for my text areas
+- Font Awsome used
 
 [Back to the top](#table-of-contents)
 
@@ -308,8 +312,13 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 
 ## Media
 
-- The image was sourced from nordiskagalleriet in Sweden (Creative Commons-licenses)
+- The image on the index.html was sourced from nordiskagalleriet in Sweden (Creative Commons-licenses)
+
   - I have emailed and asked the owner (Klong) if I could use the image.
+
+- The other two images was find on the internet with the licens open commond license
+
+- Video find on youtube.com
 
 ## Code
 
