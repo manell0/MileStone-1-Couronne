@@ -387,7 +387,7 @@ h3 {
 .form-control {
 	padding: 1em;
 	margin: 1em;
-	background-color: #e8ecff;
+	background-color: rgba(232, 236, 254, 0.6);
 	font-family: 'Open Sans', sans-serif;
 }
 
