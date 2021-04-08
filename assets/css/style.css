@@ -160,7 +160,7 @@ header.fixed {
 }
 
 .menu a.active {
-	color: rgb(184, 184, 184);
+	color: #cecece;
 }
 
 /* Center-Nav*/
