@@ -4,7 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<meta name="Description" content="The board game couronne. The history about couronne." />
+		<!-- meta for better SEO -->
+		<meta name="Description" content="The board game couronne. The history about couronne." />
 
 		<link
 			rel="stylesheet"
@@ -24,9 +25,10 @@
 	</head>
 	<body>
 		<div id="page-container">
-			<div id="content-wrap">
-				<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+			<!-- use ons id and one class of "content-wrap" for control on different screen size -->
+			<div id="content-wrap" class="content-wrap">
 				<header class="fixed" id="z-front">
+					<!-- Nav Bar on the top of the pages-->
 					<nav>
 						<!-- Nav Bar -->
 						<div class="menu">
@@ -46,7 +48,7 @@
 						</div>
 					</nav>
 				</header>
-				<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+				<!-- Section for headers and clarifying text. Use the bootstrap grid system for placement -->
 				<section>
 					<div class="container">
 						<div class="row">
@@ -58,11 +60,11 @@
 						<div class="row">
 							<div class="col-sm-6 exo">
 								<p class="lead sans fonting letter-space couronne-styleing hideing">Couronne</p>
-								<!-- <p class="lead sans fonting letter-space hides hides-640">The Classic Board Game From Sweden!</p> -->
-                                <p class="lead sans fonting letter-space hide">The History of The Game.</p>
-								<span class="lead sans letter-space hideing margins hide">The Classic Board Game!</span>
-								<p class="sans italic margins"><a href="movie.html">Watch a video here...</a></p>
-								<!-- <p class="sans hide italic"><a href="#">More info...</a></p> -->
+								
+                                <p class="lead sans fonting letter-space hide">History of The Game.</p>
+								<p class="sans italic margins">
+									<a href="movie.html"><i class="far fa-play-circle"></i> Video here...</a>
+								</p>
 							</div>
 							<div class="col-sm-6">
 								<!-- <div class="story-img"title="A pile of mixed couronne game rings"></div> -->
@@ -75,14 +77,13 @@
 						</div>
 					</div>
 				</section>
-				<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-
-				<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
-
-				<div class="flexbox-container z-back margin-left">
+				<!-- section for the mid elements (.h3-text-icon) -->
+				<!-- The section with h3 headings and the explanatory text. Here i use flexbox for easier placement  -->
+			<section>
+				<div class="flexbox-container z-back margins">
 					<div class="flexbox-item flexbox-rules">
 						<span class="h3-text-icon blueish margins">
-                            <a ><i class="far fa-window-restore"></i> Story</a> 
+                            <a href="#" ><i class="far fa-window-restore"></i> Story</a> 
                        </span>
 						<p class="margins sans">
 							<strong>Couronne,</strong>
@@ -98,7 +99,6 @@
 							<strong> In the 1930s</strong>
 							the Swedish Couronne Championship was held at Nordiska Kompaniet's department store in Stockholm.
 						</p>
-						<!-- <span class="italic margins"><a href="rules.html">Read more here...</a> </span> -->
 					</div>
 
 					<div class="flexbox-item flexbox-story">
@@ -121,6 +121,7 @@
 						</p>
 					</div>
 				</div>
+			</section>
 			</div>
 
 			<footer id="footer">
@@ -130,7 +131,7 @@
 						<!-- Left-Nav Footer -->
 						<div class="menu-left">
 							<a href="contact.html" data-toggle="tooltip" title="Contact Us!"
-								><i class="fas fa-comment-dots"></i> Cont<span class="hides">act</span>
+								><i class="fas fa-comment-dots"></i><span class="hides"> Contact</span>
 							</a>
 						</div>
 						<!-- Center-Nav Footer -->

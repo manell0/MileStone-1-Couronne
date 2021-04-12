@@ -4,8 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="Description" content="The board game couronne.Home page for couronne. Index" />
+		<meta name="Description" content="The board game couronne. Home page for couronne. Index" />
 
+		<!-- Links to bootstrap, Font Awsome and the style.css-->
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,34 +19,35 @@
 			integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
 			crossorigin="anonymous"
 		/>
-		<title>The staring page of the board game couronne</title>
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+		<title>The staring page of the board game couronne</title>
 	</head>
 	<body>
+		<!-- Page control, uses id instead of class as the id has the highest priority -->
 		<div id="page-container">
-			<div id="content-wrap">
-				<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+			<div id="content-wrap" class="content-wrap">
+				<!-- The header section, div:s with id:s and classes-->
 				<header class="fixed" id="z-front">
 					<nav>
 						<!-- Nav Bar -->
 						<div class="menu">
-							<!-- Left-Nav -->
+							<!-- Left-Nav item-->
 							<div class="menu-left">
 								<a href="index.html" class="active"><i class="fas fa-home hide"></i> Home</a>
 							</div>
-							<!-- Center-Nav -->
+							<!-- Center-Nav item-->
 							<div class="menu-center">
 								<a href="rules.html"><i class="fas fa-handshake hide"></i> Rules</a>
 							</div>
 
-							<!-- Right-Nav -->
+							<!-- Right-Nav item -->
 							<div class="menu-right">
 								<a href="history.html"><i class="far fa-window-restore hide"></i> Story</a>
 							</div>
 						</div>
 					</nav>
 				</header>
-				<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+				<!-- Section for headers and clarifying text. Use the bootstrap grid system for placement -->
 				<section>
 					<div class="container">
 						<div class="row">
@@ -57,55 +59,56 @@
 						<div class="row">
 							<div class="col-sm-6 exo">
 								<p class="lead sans fonting letter-space couronne-styleing hideing">Couronne</p>
-								<p class="lead sans fonting letter-space hide">The Classic Board Game From Sweden!</p>
-								<span class="lead sans letter-space hideing margins">The Classic Board Game!</span>
+								<!-- Below i use differnt text block for different @media quaries -->
+								<p class="lead sans fonting letter-space hide">Classic Board Game From Sweden!</p>
+								<span class="lead sans letter-space hideing margins">Classic Board Game!</span>
 
-								<p class="sans italic margins"><a href="movie.html">Watch a video here...</a></p>
+								<p class="sans italic margins">
+									<a href="movie.html"><i class="far fa-play-circle margin-video-link"></i> Video here...</a>
+								</p>
 							</div>
 							<div class="col-sm-6">
-								<!-- <div class="index-img" title="An elegant couronne table with game rings and queues."></div> -->
-
 								<div class="index-img">
+									<!-- Have my images in the css file so i make an aria-label  instead of regular alt=" "  -->
 									<span role="img" aria-label="[An elegant couronne table with game rings and queues.]"> </span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+				<!-- The section with h3 headings and the explanatory text. Here i use flexbox for easier placement  -->
+				<section>
+					<div class="flexbox-container z-back margins">
+						<div class="flexbox-item flexbox-rules">
+							<span class="h3-text-icon brownish margins">
+								<a href="rules.html"><i class="fas fa-handshake"></i> Rules</a>
+							</span>
+							<p class="margins sans">
+								<strong>The goal of the game</strong> As in billiards, it's about getting all your own balls down, but
+								in this game it's about your own rings. Preparations and layout Lay out the red and yellow rings in the
+								circle in the center of the game board. Then form two teams (for more than 2 players) and choose the
+								color of the rings and the associated queue. Then give each player a black push ring.
+							</p>
+							<span class="italic margins"><a href="rules.html">Read more here...</a> </span>
+						</div>
 
-				<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
-
-				<div class="flexbox-container z-back margin-left">
-					<div class="flexbox-item flexbox-rules">
-						<span class="h3-text-icon brownish margins">
-							<a href="rules.html"><i class="fas fa-handshake"></i> Rules</a>
-						</span>
-						<p class="margins sans">
-							<strong>The goal of the game</strong> As in billiards, it's about getting all your own balls down, but in
-							this game it's about your own rings. Preparations and layout Lay out the red and yellow rings in the
-							circle in the center of the game board. Then form two teams (for more than 2 players) and choose the color
-							of the rings and the associated queue. Then give each player a black push ring.
-						</p>
-						<span class="italic margins"><a href="rules.html">Read more here...</a> </span>
+						<div class="flexbox-item flexbox-story">
+							<span class="h3-text-icon brownish margins">
+								<a href="history.html"><i class="far fa-window-restore"></i> Story</a>
+							</span>
+							<p class="margins sans">
+								<strong> Couronne</strong>, or coron, also called corona is a variant of the board game that is believed
+								to have originated in Asia or Africa. The game is played by two to four players who are divided into two
+								teams. Each team must try to hit their fifteen rings into the holes on the game board. Queues and
+								special bumps are used for this. The team that gets their rings down first wins. In the 1930s, the
+								Swedish Couronne Championship was held at Nordiska Kompaniet's department store in Stockholm.
+							</p>
+							<span class="italic margins"><a href="history.html">Read more here...</a> </span>
+						</div>
 					</div>
-
-					<div class="flexbox-item flexbox-story">
-						<span class="h3-text-icon brownish margins">
-							<a href="history.html"><i class="far fa-window-restore"></i> Story</a>
-						</span>
-						<p class="margins sans">
-							<strong> Couronne</strong>, or coron, also called corona is a variant of the board game that is believed
-							to have originated in Asia or Africa. The game is played by two to four players who are divided into two
-							teams. Each team must try to hit their fifteen rings into the holes on the game board. Queues and special
-							bumps are used for this. The team that gets their rings down first wins. In the 1930s, the Swedish
-							Couronne Championship was held at Nordiska Kompaniet's department store in Stockholm.
-						</p>
-						<span class="italic margins"><a href="history.html">Read more here...</a> </span>
-					</div>
-				</div>
+				</section>
 			</div>
-
+			<!-- Footer area, use the same structure and classes as in the navigation bar on the top -->
 			<footer id="footer">
 				<nav>
 					<!-- Nav Bar Footer -->
@@ -113,7 +116,7 @@
 						<!-- Left-Nav Footer -->
 						<div class="menu-left">
 							<a href="contact.html" data-toggle="tooltip" title="Contact Us!"
-								><i class="fas fa-comment-dots"></i> Cont<span class="hides">act</span>
+								><i class="fas fa-comment-dots"></i><span class="hides"> Contact</span>
 							</a>
 						</div>
 						<!-- Center-Nav Footer -->
@@ -136,8 +139,8 @@
 								rel="noopener"
 								data-toggle="tooltip"
 								title="Go to Facebook"
-								><i class="fab fa-facebook footer-right"></i>
-							</a>
+								><i class="fab fa-facebook footer-right"></i> </a
+							><!-- class footer-right: placement for the social icons at the bottom of the page -->
 							<a
 								href="https://www.linkedin.com/"
 								target="_blank"
