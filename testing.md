@@ -82,7 +82,7 @@ Screen shot from index page (desktop device)
 
 Family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to many UX changes in order to create a better experience.
 
-- Change to the Navbar text size on mobiles in order for the toggler menu icon to more distinguishable.
+- Change to the Navbar text size on mobiles in order for the menu icon to more distinguishable.
 
 - Decided that footer should also (as top navigation bar) be fixed because it is much better for the UX.
 
