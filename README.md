@@ -154,8 +154,6 @@ The pairing of the fonts Open Sans and Exo 2 is used throughout the website with
 
 ### Picture
 
-The background image is a blurred image to get some color on the page.
-
 The selected image on the home page is modern and simple, reflecting the look and feel of the page and the game.
 The image is captivating and visually represents the site's theme.
 
@@ -179,7 +177,7 @@ Each page of the website features a consistent responsive navigational system:
 
 - The Home, Rule and History Page is divided into two columns on desktops and one column on mobile devices.
   On mobile devices, all content is stacked in a column.
-  The Rules Page and the History Page have an back button for easy navigation to the page you visit last.
+  The video (movie.html) Page have an back button for easy navigation to the page you visit last.
 
 #### Contact Page
 
@@ -187,7 +185,13 @@ Each page of the website features a consistent responsive navigational system:
 
 ### Existing Features
 
+- Opportunity to watch a video that is linked from the three main pages.
+- Validated contact page
+- Opportunity to download Couronne rules on PDF format
+
 #### Header Logo
+
+- Header text hwo match the page you are on.
 
 #### Header Navigation Bar and footer
 
@@ -201,6 +205,9 @@ Each page of the website features a consistent responsive navigational system:
 
 - [ x ] Make the contact page a separate page where you can write a message directly on the site and not just an email to link.
   **Done. Finished and ready!**
+
+  - [ x ] Make a separate page where you can watch a video with an back link button.
+    **Done. Finished and ready!**
 
 - ### Merchandise Shop
 
@@ -309,6 +316,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 ## Content
 
 - The text used in the explonations (rules and storys) is taken from wikipedia.
+- Go Back script taken from [W3 Schools](https://www.w3schools.com/jsref/met_his_back.asp)
 
 ## Media
 
