@@ -12,14 +12,8 @@ font-family: 'Open Sans', sans-serif;*/
 
 html {
 	padding-top: 2em;
-	background-color: #f2f2f2;
 }
-body {
-	background-image: url('../images/couronne-back-orginal.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 /* set the padding on the unorded list on the story page */
 ul {
 	padding-left: 1em;
@@ -27,7 +21,7 @@ ul {
 /* control of the movie, the only iframe on the site  */
 iframe {
 	margin-top: 2em;
-	margin-bottom: 7em;
+	margin-bottom: 2em;
 	width: 700px;
 	height: 300px;
 	border-radius: 0.5em;
@@ -80,8 +74,18 @@ iframe {
 }
 .movie {
 	margin: auto;
-	margin-top: 5em;
+	margin-top: 3em;
+	margin-bottom: 0;
+
 	/* margin-bottom: 5em; */
+}
+.button-back {
+	text-align: right;
+	margin-bottom: 1em;
+	padding: 0;
+	margin-top: 0px;
+	margin-bottom: 2em;
+	font-family: 'Open Sans', sans-serif;
 }
 /*----------------------------------------------------- Colors ---*/
 /*mid section header styling*/
@@ -249,47 +253,49 @@ h3 {
 .flexbox-container {
 	display: flex;
 	align-items: flex-start;
-	justify-content: stretch;
+	justify-content: space-around;
 	margin-bottom: 3em;
-	align-items: flex-start;
+	margin-left: 3em;
+	margin-right: 3em;
+	align-self: flex-start;
 }
 .flexbox-item {
 	width: 100%;
-	margin: 0;
+	margin-top: 0;
 	padding: 1em;
+	margin-bottom: 0em;
 }
 .flexbox-rules {
 	min-height: 10px;
-	padding: 0em 1em 1em 1em;
+	padding: 0em 1em 0em 1em;
 }
 
 .flexbox-story {
 	min-height: 10px;
-	padding: 0em 1em 1em 1em;
+	padding: 0em 1em 0em 1em;
 }
 /*++++++++++++++++++++++++++++++++++++++++++ Form Section +++++++*/
 /* To control my form in on the contact page */
 .form-control {
 	padding: 1em;
-	margin: 1em;
+	margin: 1em 0 1em 0;
 	background-color: rgba(232, 236, 254, 0.6);
 	font-family: 'Open Sans', sans-serif;
 }
 /* button style */
 button[type='submit'] {
-	margin-top: 15px;
-	margin-bottom: 7em;
+	margin-bottom: 3em;
 	color: #fafafa;
 	background-color: #237386;
 	font-family: 'Open Sans', sans-serif;
 }
 /*------------------------------------------------------------- Media Querys   ---*/
 /* media query to set my footer in place when use position:absolut right now i use position: fixed */
-@media (min-height: 1025px) and (orientation: portrait), (min-width: 1366px) {
+/* @media (min-height: 1025px) and (orientation: portrait), (min-width: 1366px) {
 	#content-wrap {
 		padding-bottom: 14em;
 	}
-}
+} */
 /* media query for set font-size and spacing on bigger screens */
 @media (min-width: 1024px) {
 	nav {
@@ -316,7 +322,7 @@ button[type='submit'] {
 /* Sets fonts and hides on mid screens. .content-wrap is for when position:absolut is used */
 @media (max-width: 768px) {
 	#content-wrap {
-		padding-bottom: 19em;
+		padding-bottom: 2em;
 	}
 	.fonting-640 {
 		font-size: 52px;
@@ -329,7 +335,7 @@ button[type='submit'] {
 /* Sets the pages in smaller screens */
 @media (max-width: 640px) {
 	#content-wrap {
-		padding-bottom: 5em;
+		padding-bottom: 1em;
 	}
 	iframe {
 		width: 320px;
@@ -338,9 +344,10 @@ button[type='submit'] {
 	}
 
 	.movie {
-		margin: auto;
 		margin-top: 1em;
-		margin-bottom: 1em;
+		margin-bottom: 0em;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 	.fonting-640 {
@@ -354,6 +361,14 @@ button[type='submit'] {
 		font-family: 'Exo 2', sans-serif;
 		font-weight: 700;
 		font-size: 120%;
+	}
+	.flexbox-item {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		align-content: center;
+		margin-left: 1em;
+		margin-right: 1em;
 	}
 }
 
@@ -390,6 +405,8 @@ button[type='submit'] {
 		flex-wrap: wrap;
 		align-items: flex-start;
 		align-content: center;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 /*--------------------------------------------------------------------- Media Queries Form*/
@@ -421,7 +438,7 @@ button[type='submit'] {
 
 /*++++++++++++++++++++++++++++++++++++++++++ Footer +++++++*/
 .content-wrap-small-content {
-	padding-bottom: 14em;
+	padding-bottom: 2em;
 }
 .content-wrap {
 	padding-bottom: 2em;
