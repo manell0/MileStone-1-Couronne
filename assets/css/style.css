@@ -310,6 +310,15 @@ button[type='submit'] {
 		margin-left: 4em;
 		margin-right: 4em;
 	}
+	.flexbox-container {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-around;
+		margin-bottom: 3em;
+		margin-left: 4em;
+		margin-right: 4em;
+		align-self: flex-start;
+	}
 }
 
 /* media query for hiding items */
