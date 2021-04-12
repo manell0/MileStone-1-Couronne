@@ -169,7 +169,7 @@ The pictures on the rules and story pages are some pictures I found online that 
 
 Each page of the website features a consistent responsive navigational system:
 
--At the top of all pages there is a navigation bar and footer that is fixed for easy navigation on the site.
+- At the top of all pages there is a navigation bar and footer that is fixed for easy navigation on the site.
 
 - On larger screens, the header contains some advertising text that disappears on mobile devices. The footer contains appropriate social media icons that link users to Couronne's main pages. For mobile devices, the header and footer are slightly modified.
 
