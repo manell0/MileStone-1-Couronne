@@ -385,6 +385,11 @@ button[type='submit'] {
 	html {
 		padding-top: 2.5em;
 	}
+	nav {
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 700;
+		font-size: 110%;
+	}
 
 	.hide {
 		display: none;
