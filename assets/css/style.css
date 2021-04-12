@@ -11,31 +11,33 @@ font-family: 'Open Sans', sans-serif;*/
 }
 
 html {
-	padding-top: 3.4em;
+	padding-top: 2em;
 	background-color: #f2f2f2;
 }
 body {
-	background-image: url('../images/couronne-back.png');
+	background-image: url('../images/couronne-back-orginal.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/* set the padding on the unorded list on the story page */
 ul {
 	padding-left: 1em;
 }
-
+/* control of the movie, the only iframe on the site  */
 iframe {
-	margin-top: 1em;
-	width: 360px;
-	height: 200px;
+	margin-top: 2em;
+	margin-bottom: 7em;
+	width: 700px;
+	height: 300px;
 	border-radius: 0.5em;
 }
-
+/* id:s for highest prio for control ot the site. */
 #page-container {
 	position: relative;
 	min-height: 100%;
 }
-
+/* index for control of objects */
 #z-front {
 	z-index: 1;
 }
@@ -44,10 +46,9 @@ iframe {
 	z-index: -1;
 }
 
-/*----------------------------------------------------- Images---*/
+/*----------------------------------------------------- Images and video---*/
 .index-img {
 	background: url('../images/couronne-large-transparent-orginal-removebg-preview.png');
-
 	padding: 5em;
 	background-repeat: no-repeat;
 	align-content: center;
@@ -58,7 +59,6 @@ iframe {
 }
 .rules-img {
 	background: url('../images/couronne-rules.png');
-
 	padding: 5em;
 	background-repeat: no-repeat;
 	align-content: center;
@@ -70,7 +70,6 @@ iframe {
 
 .story-img {
 	background: url('../images/couronne-ringar.png');
-
 	padding: 5em;
 	background-repeat: no-repeat;
 	align-content: center;
@@ -81,26 +80,16 @@ iframe {
 }
 .movie {
 	margin: auto;
+	margin-top: 5em;
+	/* margin-bottom: 5em; */
 }
 /*----------------------------------------------------- Colors ---*/
-
+/*mid section header styling*/
 .brownish.h3-text-icon a {
 	color: rosybrown;
 }
 .blueish.h3-text-icon a {
 	color: #237386;
-}
-
-/*--------------------------------------------  Site Aligns and spaces ---*/
-
-.margins {
-	margin-left: 1em;
-	margin-right: 1em;
-}
-.margin-left {
-	margin-top: 0em;
-	margin-left: 1em;
-	margin-right: 1em;
 }
 
 /*--------------------------------------------------- Fonts ---*/
@@ -113,8 +102,6 @@ iframe {
 	letter-spacing: 0.08em;
 	line-height: 2em;
 }
-
-/*--------------------------------------------------- Header ---*/
 
 /*------------------------------------------------------- Header Nav Menu ---*/
 nav {
@@ -129,10 +116,9 @@ header.fixed {
 	left: 0;
 	width: 100%;
 }
-
+/* menu class for styling used in both header and footer*/
 .menu {
 	position: relative;
-
 	background-color: #237386;
 	overflow: hidden;
 	max-width: 100%;
@@ -142,11 +128,9 @@ header.fixed {
 /* Nav Bar */
 .menu a {
 	font-family: 'Exo 2', sans-serif;
-
-	font-size: 150%;
+	font-size: 130%;
 	float: left;
 	color: #fff;
-
 	text-align: center;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -155,15 +139,16 @@ header.fixed {
 /* Change the color of links on hover */
 .menu a:hover {
 	color: rosybrown;
-
 	text-shadow: -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
-
+/* when the link is active */
 .menu a.active {
+	color: rgb(184, 184, 184);
+	color: #f2f2f2;
 	color: #cecece;
 }
 
-/* Center-Nav*/
+/* Center-Navs item*/
 .menu-center a {
 	float: none;
 	position: absolute;
@@ -171,18 +156,28 @@ header.fixed {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-/* Left-Nav */
+/* Left-Nav item*/
 .menu-left {
 	float: left;
 	padding-left: 5%;
 }
-/* Right-Nav */
+/* Right-Nav item*/
 .menu-right {
 	float: right;
 	padding-right: 5%;
 }
+/*--------------------------------------------  Site Aligns and spaces ---*/
+/* margins used for spacing on the site */
+.margins {
+	margin-left: 1em;
+	margin-right: 1em;
+}
 
-/*------------------------------------------------------------------------------- Text Styling ---*/
+/* some space for my video link */
+.margin-video-link {
+	margin-top: 1em;
+}
+/*---------------------------------------------------------------------- Text Styling ---*/
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
@@ -195,14 +190,15 @@ h3 {
 	margin-left: 0.55em;
 	margin-top: 1em;
 }
-
+/*styling headers on bigger screens*/
 .couronne-style {
 	margin: 0.5em 0 0.5em 0;
 	color: #237386;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
-/*++++++++++++++++++------------------------------------+++++++++++++ h3 Text and Icons +++*/
+/*+++++++++++++++++++++++++++++++ h3 Text and Icons +++*/
 
+/* The h3 headers on the mid section (brown and blue) icon and text of the site */
 .h3-text-icon {
 	color: white;
 	font-size: 40px;
@@ -210,8 +206,6 @@ h3 {
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 	overflow: hidden;
 	max-width: 100%;
-
-	/* font-weight: bold; */
 }
 
 .h3-text-icon a {
@@ -219,7 +213,7 @@ h3 {
 	float: left;
 	text-align: center;
 	text-decoration: none;
-	letter-spacing: 2px;
+	letter-spacing: 9px;
 	margin-left: 0.5em;
 }
 
@@ -235,23 +229,27 @@ h3 {
 }
 
 /*  ---------------------------------------------------++++++++++++++------ Text Links*/
+/* For the text links on the page with italic style */
 .italic {
 	font-style: italic;
 }
 .italic a {
-	color: rosybrown;
+	color: brown;
 	background-color: transparent;
 	text-decoration: none;
+	font-size: 24px;
+	padding: 3px;
 }
 .italic a:hover {
 	font-weight: bolder;
 	color: rosybrown;
 }
-/*  ---------------------------------------------------++++++++++++++------ FlexBox */
+/*  --------------------------------------------------------- FlexBox */
+/* Flex box used on the mid section (rules, story and the text block) */
 .flexbox-container {
 	display: flex;
 	align-items: flex-start;
-	justify-content: space-evenly;
+	justify-content: stretch;
 	margin-bottom: 3em;
 	align-items: flex-start;
 }
@@ -259,7 +257,6 @@ h3 {
 	width: 100%;
 	margin: 0;
 	padding: 1em;
-	/* border: 1px solid #87655a; */
 }
 .flexbox-rules {
 	min-height: 10px;
@@ -270,8 +267,30 @@ h3 {
 	min-height: 10px;
 	padding: 0em 1em 1em 1em;
 }
-
-/*------------------------------------------------------------- Media Query   ---*/
+/*++++++++++++++++++++++++++++++++++++++++++ Form Section +++++++*/
+/* To control my form in on the contact page */
+.form-control {
+	padding: 1em;
+	margin: 1em;
+	background-color: rgba(232, 236, 254, 0.6);
+	font-family: 'Open Sans', sans-serif;
+}
+/* button style */
+button[type='submit'] {
+	margin-top: 15px;
+	margin-bottom: 7em;
+	color: #fafafa;
+	background-color: #237386;
+	font-family: 'Open Sans', sans-serif;
+}
+/*------------------------------------------------------------- Media Querys   ---*/
+/* media query to set my footer in place when use position:absolut right now i use position: fixed */
+@media (min-height: 1025px) and (orientation: portrait), (min-width: 1366px) {
+	#content-wrap {
+		padding-bottom: 14em;
+	}
+}
+/* media query for set font-size and spacing on bigger screens */
 @media (min-width: 1024px) {
 	nav {
 		font-size: 180%;
@@ -287,12 +306,18 @@ h3 {
 	}
 }
 
+/* media query for hiding items */
 @media (min-width: 640px) {
 	.hideing {
 		display: none;
 	}
 }
+
+/* Sets fonts and hides on mid screens. .content-wrap is for when position:absolut is used */
 @media (max-width: 768px) {
+	#content-wrap {
+		padding-bottom: 19em;
+	}
 	.fonting-640 {
 		font-size: 52px;
 		padding: 1em 0em 1em 0em;
@@ -301,8 +326,23 @@ h3 {
 		visibility: hidden;
 	}
 }
-
+/* Sets the pages in smaller screens */
 @media (max-width: 640px) {
+	#content-wrap {
+		padding-bottom: 5em;
+	}
+	iframe {
+		width: 320px;
+		height: 180px;
+		border-radius: 0.5em;
+	}
+
+	.movie {
+		margin: auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
 	.fonting-640 {
 		font-size: 40px;
 		margin: 0.3em 0em 0.3em 0em;
@@ -310,13 +350,10 @@ h3 {
 	.letter-space {
 		line-height: normal;
 	}
-	.margin-left {
-		margin-top: 0;
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.hides-640 {
-		display: none;
+	nav {
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 700;
+		font-size: 120%;
 	}
 }
 
@@ -328,22 +365,15 @@ h3 {
 	.hide {
 		display: none;
 	}
+	/*heading styling in smaller screens*/
 	.couronne-styleing {
 		margin: 0.5em 0 0.5em 0;
 		color: #4183b1;
 		text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 	}
 
-	nav {
-		font-family: 'Exo 2', sans-serif;
-
-		font-weight: 700;
-		font-size: 120%;
-	}
-
+	/* Fonts on my h1 headers on the top on the pages */
 	.fonting {
-		/* text-shadow: #bb0202 1px 1px; */
-
 		font-family: 'Exo 2', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 0.3em;
@@ -362,43 +392,6 @@ h3 {
 		align-content: center;
 	}
 }
-
-/*+++++++++++++++++++++++++++++++++++++++++++++++++*/
-/*++++++++++++++++++++++++++++++++++++++++++ Footer +++++++*/
-
-#content-wrap {
-	padding-bottom: 2.5rem; /* Footer height */
-}
-
-.footer-right {
-	float: right;
-
-	padding: 0.4em 0.2em 0 0;
-}
-
-#footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 0; /* Footer height */
-}
-
-/*++++++++++++++++++++++++++++++++++++++++++ Form Section +++++++*/
-.form-control {
-	padding: 1em;
-	margin: 1em;
-	background-color: rgba(232, 236, 254, 0.6);
-	font-family: 'Open Sans', sans-serif;
-}
-
-button[type='submit'] {
-	margin-top: 15px;
-	margin-bottom: 20px;
-	color: #fafafa;
-	background-color: #237386;
-	font-family: 'Open Sans', sans-serif;
-}
-
 /*--------------------------------------------------------------------- Media Queries Form*/
 @media (min-width: 992px) {
 	.center-form {
@@ -409,11 +402,40 @@ button[type='submit'] {
 	}
 }
 
+@media (max-width: 480px) {
+	.center-form {
+		padding-top: 10px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 80%;
+	}
+}
+
 @media (max-width: 360px) {
 	.center-form {
 		padding-top: 10px;
-
 		margin: 0 1em 0 0;
 		max-width: 90%;
 	}
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++ Footer +++++++*/
+.content-wrap-small-content {
+	padding-bottom: 14em;
+}
+.content-wrap {
+	padding-bottom: 2em;
+}
+/* spacing and placement for the social icons at the bottom of the page */
+.footer-right {
+	float: right;
+	padding: 0.4em 0.2em 0 0;
+}
+
+#footer {
+	position: absolute;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
