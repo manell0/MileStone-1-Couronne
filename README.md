@@ -191,9 +191,9 @@ Each page of the website features a consistent responsive navigational system:
 
 #### Header Logo
 
-- Header text hwo match the page you are on.
+- Headline text that matches the page you are on.
 
-#### Header Navigation Bar and footer
+#### Header Navigation Bar and footer which are fixed
 
 - Appearing on every page for a consistently easy and intuitive navigable system.
 
@@ -206,7 +206,7 @@ Each page of the website features a consistent responsive navigational system:
 - [ x ] Make the contact page a separate page where you can write a message directly on the site and not just an email to link.
   **Done. Finished and ready!**
 
-  - [ x ] Make a separate page where you can watch a video with an back link button.
+  - [ x ] Make a separate page where you can watch a video with an go-back link button.
     **Done. Finished and ready!**
 
 - ### Merchandise Shop
@@ -225,6 +225,9 @@ Each page of the website features a consistent responsive navigational system:
 
 - Had difficulty getting my footer in place. Took help from google and found Dominic Fraser. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
+- Hassle with margins distance and spacing has been a common occurrence when I built this site
+
+
 # Technologies Used
 
 ### Main Languages Used
@@ -235,8 +238,8 @@ Each page of the website features a consistent responsive navigational system:
 
 ### Additional Languages Used
 
-- [ ] [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-  - No JavaScript Implemented yet
+- [x] [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+  - A small function of JavaScript is used for my go-back button on the video page
 
 ### Frameworks, Libraries & Programs Used
 
