@@ -79,9 +79,11 @@ The most important requirements were to create a responsive and static website w
 
 4. As a new user, I want to easily navigate to Couronne's social links to keep track of the latest news and changes.
 
+5. As a new user, I Want to easily have the ability to contact couronne
+
 ### Current Fans Goals:
 
-1. As a current user, I want to navigate to information about rules and history, as well as social links.Thats it!
+1. As a current user, I want to navigate to information about rules and history, as well as social links. As well as the opportunity to contact the couronne site for any questions. Thats it!
 
 ## Development Planes
 
@@ -169,7 +171,7 @@ The pictures on the rules and story pages are some pictures I found online that 
 
 Each page of the website features a consistent responsive navigational system:
 
--At the top of all pages there is a navigation bar that is fixed for easy navigation on the site.
+-At the top of all pages there is a navigation bar and footer that is fixed for easy navigation on the site.
 
 - On larger screens, the header contains some advertising text that disappears on mobile devices. The footer contains appropriate social media icons that link users to Couronne's main pages. For mobile devices, the header and footer are slightly modified.
 
@@ -181,16 +183,13 @@ Each page of the website features a consistent responsive navigational system:
 
 #### Contact Page
 
-- [ x ] The contact page is unchanged regardless of the size of devices used. In addition to the header (see above).
-
-- [ x ] Contact Form - The form is not validated.
-  - Depending on the time, maybe I just make the contact link only to ba a meil to link ....
+- [ x ] Contact Form - The form is validated (https://formdump.codeinstitute.net/).
 
 ### Existing Features
 
 #### Header Logo
 
-#### Header Navigation Bar
+#### Header Navigation Bar and footer
 
 - Appearing on every page for a consistently easy and intuitive navigable system.
 
@@ -200,7 +199,8 @@ Each page of the website features a consistent responsive navigational system:
 
 ## Features to Implement in the future
 
-- [ x ] Make the contact page a separate page where you can write a message directly on the site and not just an email to link
+- [ x ] Make the contact page a separate page where you can write a message directly on the site and not just an email to link.
+  **Done. Finished and ready!**
 
 - ### Merchandise Shop
 
@@ -249,7 +249,7 @@ Each page of the website features a consistent responsive navigational system:
 
 ## Deploying on GitHub Pages
 
-To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+To deploy this page to GitHub Pages from its GitHub repository, the following steps shuld taken:
 
 1. Log into [GitHub or create an account](https://github.com/).
 2. Locate the GitHub Repository.
@@ -308,7 +308,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 
 ## Content
 
--
+- The text used in the explonations (rules and storys) is taken from wikipedia.
 
 ## Media
 
@@ -318,7 +318,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 
 - The other two images was find on the internet with the licens open commond license
 
-- Video find on youtube.com
+- Video find on [youtube](https://www.youtube.com/embed/vBPb4YcOW-4)
 
 ## Code
 
@@ -332,4 +332,6 @@ The developer consulted multiple sites in order to better understand the code th
 
 # Acknowledgements
 
-[Back to the top](#table-of-contents)
+- I would like to thank my mentor, Owonikoko Oluwaseun, for her help and guidance throughout this process.
+
+  [Back to the top](#table-of-contents)
