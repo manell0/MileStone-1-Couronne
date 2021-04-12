@@ -413,7 +413,7 @@ button[type='submit'] {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: flex-start;
-		align-content: left;
+		align-content: center;
 		margin-left: 0;
 		margin-right: 0;
 	}
