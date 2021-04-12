@@ -182,7 +182,7 @@ header.fixed {
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-
+	padding-top: 1em;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 }
@@ -431,7 +431,7 @@ button[type='submit'] {
 	float: right;
 	padding: 0.4em 0.2em 0 0;
 }
-
+/* save the positon:absolute for the future even it dosent do anything */
 #footer {
 	position: absolute;
 	position: fixed;
