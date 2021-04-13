@@ -244,6 +244,9 @@ Each page of the website features a consistent responsive navigational system:
 
 - Have problem to fix a button style on my movie.html page
    - I found the solution on Stack Owerflow [Gold Pearl on stack Overflow](https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap)
+   
+- When I come back from validating my contact form, the form is not clean.
+   - Found the solution [On this page]( http://www.java2s.com/Tutorial/JavaScript/0200__Form/Resettingaformonpageload.htm). A JavaScript that i used
 
 
 # Technologies Used
