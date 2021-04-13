@@ -322,7 +322,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 ## Content
 
 - The text used in the explonations (rules and storys) is taken from wikipedia.
-- Go Back script taken from [W3 Schools](https://www.w3schools.com/jsref/met_his_back.asp)
+- Go Back script taken from that i use in the movie.html file [W3 Schools](https://www.w3schools.com/jsref/met_his_back.asp)
 
 ## Media
 
@@ -339,10 +339,12 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 
 - [Stack Overflow](https://stackoverflow.com/)
-- [W3Schools](https://www.w3schools.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Css Tricks](https://css-tricks.com/)
+- [W3Schools](https://www.w3schools.com/) used alot, and the back button in my movie.html came from there.
+- [Bootstrap](https://getbootstrap.com/) used for my grid system throughout the site
+- [Font Awesome](https://fontawesome.com/) used for my icons
+- [Css Tricks](https://css-tricks.com/) used for various spacing tricks and placement technology
 - [COLORS](https://coolors.co/)
+- [Google fonts](https://fonts.google.com/) used for my fonts (Exo 2 and Open Sans)
 
 # Acknowledgements
 
