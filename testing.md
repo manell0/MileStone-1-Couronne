@@ -82,7 +82,7 @@
 
 ## Lighthouse
 
-Screen shot from index page (desktop device)
+Screenshot from index page (desktop device)
 
 [Lighthouse test as PDF ](assets/lighthouse.pdf)
 ![lighthouse test](assets/images/github-100.jpg)
