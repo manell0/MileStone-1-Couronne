@@ -83,6 +83,7 @@
 ## Lighthouse
 
 Screen shot from index page (desktop device)
+[Lighthouse test as HTML](manell0.github.io-100.html)
 [Lighthouse test as PDF ](assets/lighthouse.pdf)
 ![lighthouse test](assets/images/github-100.jpg)
 
