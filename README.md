@@ -1,5 +1,7 @@
 # Couronne, The Classic Bord Game
 
+![The Markup from responsivedesign](assets/images/Responsivedesign-Screenshot.jpg)
+
 ## Milestone project 1 (Code Institute)
 
 This is a website that explains and tells the rules and story of a classic board game called couronne.
