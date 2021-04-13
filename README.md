@@ -261,6 +261,7 @@ Each page of the website features a consistent responsive navigational system:
 
 - [x] [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
   - A small function of JavaScript is used for my go-back button on the video page (movie.html)
+  - A small function of JavaScript is used to clear my form (contact.html) when coming back from validation.
 
 ### Frameworks, Libraries & Programs Used
 
