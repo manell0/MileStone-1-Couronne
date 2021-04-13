@@ -240,6 +240,9 @@ Each page of the website features a consistent responsive navigational system:
 - Hassle with margins distance and spacing has been a common occurrence when I built this site
    - On this problems the [Css Tricks](https://css-tricks.com/) site helpt me. I have taken inspiration and code technologi from there
 
+- Have problem to fix a button style on my movie.html page
+   - I found the solution on Stack Owerflow [Gold Pearl on stack Overflow](https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap)
+
 
 # Technologies Used
 
@@ -256,10 +259,10 @@ Each page of the website features a consistent responsive navigational system:
 
 ### Frameworks, Libraries & Programs Used
 
-- Bootstrap 4.3.1 used
+- [Bootstrap 4.3.1 used](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - Flexbox used for my text areas
-- Font Awsome used
-- Google fonts
+- [Font Awsome used](https://fonts.google.com/)
+- [Google fonts](https://fonts.google.com/)
 
 [Back to the top](#table-of-contents)
 
@@ -332,6 +335,8 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 - Thanks to Dominic Fraser who has a great explanation of how to put your footer in place. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
 - Thanks to [codeSTACKr](https://www.youtube.com/watch?v=qqDH0T6K5gY) who has a good youtube channel to learn and understand flexbox a little better  I have used some code from there.
+
+- Tanks to [Gold Pearl on stack Overflow](https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap) for the fix of override any default properties in bootstrap. I used it on my Go Back Button on the movie.html page.
 
 ## Content
 
