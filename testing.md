@@ -16,7 +16,7 @@
 
 ## Testing User Stories
 
-### New/Potential Fans Goals:
+### New/Potential User Goals:
 
 1. As a new user, I want to easily navigate through the website to find the relevant content, effortlessly.
 
@@ -26,15 +26,23 @@
 
 2. As a new user, I want to learn more about the classic board game couronne in order to better understand the rules and history.
 
-   - The 'rules' and 'styry' pages is appropriately named for users wishing to find out about the game.
+   - The 'rules' and 'story' pages is appropriately named for users wishing to find out about the game.
    - The 'rule' and 'story' pages is easily found on each page, no matter the device.
 
-3. As a new user, I want to easily navigate to the artist's social links in order to keep up with the latest news.
+3. As a new user, I want to easily navigate to the Couronne's social links in order to keep up with the latest news.
 
    - The social links are located in the footer on desktop and tablet devices.
    - In each instance, each link is represented by an appropriate icon for easy identification of the social platform.
+   - As a new user, I want to be able to watch an embedded video to be able to get a snapshot of the game .
 
-4. As a new user, I want to be able to watch an embedded video to be able to get a snapshot of the game .
+4. As a new user, I Want to easily have the ability to contact couronne.
+
+   - In the fixed footer there is a link for contact with Couronne. 
+
+### Current User Goals:
+1. As a current user, I want to navigate to information about rules and history, as well as social links. As well as the opportunity to contact the couronne site for any questions.
+   
+   - All these criteria are met. Rules and story are top navigation bar at the top. Contact and social links in the footer. Also possibility to download the rules in PDF.
 
 ## Manual Testing
 
