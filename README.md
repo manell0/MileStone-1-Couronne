@@ -195,6 +195,7 @@ Each page of the website features a consistent responsive navigational system:
 - Opportunity to watch a video that is linked from the three main pages.
 - Validated contact page
 - Opportunity to download Couronne rules on PDF format
+- 404.html  
 
 #### Header Logo
 
