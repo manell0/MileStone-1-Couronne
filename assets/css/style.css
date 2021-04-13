@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*font-family: 'Exo 2', sans-serif;
-font-family: 'Open Sans', sans-serif;*/
-
 /*----------------------------------------------- Site Props ---*/
 * {
 	margin: 0;
@@ -18,6 +15,7 @@ html {
 ul {
 	padding-left: 1em;
 }
+
 /* control of the movie, the only iframe on the site  */
 iframe {
 	margin-top: 2em;
@@ -26,6 +24,7 @@ iframe {
 	height: 300px;
 	border-radius: 0.5em;
 }
+
 /* id:s for highest prio for control ot the site. */
 #page-container {
 	position: relative;
@@ -61,7 +60,6 @@ iframe {
 	margin: auto;
 	width: 100%;
 }
-
 .story-img {
 	background: url('../images/couronne-ringar.png');
 	padding: 5em;
@@ -76,18 +74,23 @@ iframe {
 	margin: auto;
 	margin-top: 0em;
 	margin-bottom: 0;
-
-	/* margin-bottom: 5em; */
 }
-.button-back {
+
+/*-----------------------------------------------------------Go Back Button */
+.button-right {
 	text-align: right;
-	margin-bottom: 1em;
-	padding: 0;
-	margin-top: 0px;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
+
 	font-family: 'Open Sans', sans-serif;
 }
-/*----------------------------------------------------- Colors ---*/
+.btn-secondary {
+	background-color: #237386 !important;
+}
+.btn-secondary:hover {
+	background-color: rgb(77, 77, 77) !important;
+}
+
+/*---------------------------------------------------- Colors ---*/
 /*mid section header styling*/
 .brownish.h3-text-icon a {
 	color: rosybrown;
@@ -120,6 +123,7 @@ header.fixed {
 	left: 0;
 	width: 100%;
 }
+
 /* menu class for styling used in both header and footer*/
 .menu {
 	position: relative;
@@ -147,8 +151,6 @@ header.fixed {
 }
 /* when the link is active */
 .menu a.active {
-	color: rgb(184, 184, 184);
-	color: #f2f2f2;
 	color: #cecece;
 }
 
@@ -160,16 +162,19 @@ header.fixed {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
 /* Left-Nav item*/
 .menu-left {
 	float: left;
 	padding-left: 5%;
 }
+
 /* Right-Nav item*/
 .menu-right {
 	float: right;
 	padding-right: 5%;
 }
+
 /*--------------------------------------------  Site Aligns and spaces ---*/
 /* margins used for spacing on the site */
 .margins {
@@ -200,8 +205,8 @@ h3 {
 	color: #237386;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
-/*+++++++++++++++++++++++++++++++ h3 Text and Icons +++*/
 
+/*+++++++++++++++++++++++++++++++ h3 Text and Icons +++*/
 /* The h3 headers on the mid section (brown and blue) icon and text of the site */
 .h3-text-icon {
 	color: white;
@@ -222,7 +227,6 @@ h3 {
 }
 
 /* Change the color of links on hover */
-
 .h3-text-icon a:hover {
 	font-weight: bolder;
 	color: #ececec;
@@ -248,6 +252,7 @@ h3 {
 	font-weight: bolder;
 	color: rosybrown;
 }
+
 /*  --------------------------------------------------------- FlexBox */
 /* Flex box used on the mid section (rules, story and the text block) */
 .flexbox-container {
@@ -274,6 +279,7 @@ h3 {
 	min-height: 10px;
 	padding: 0em 1em 0em 1em;
 }
+
 /*++++++++++++++++++++++++++++++++++++++++++ Form Section +++++++*/
 /* To control my form in on the contact page */
 .form-control {
@@ -290,12 +296,6 @@ button[type='submit'] {
 	font-family: 'Open Sans', sans-serif;
 }
 /*------------------------------------------------------------- Media Querys   ---*/
-/* media query to set my footer in place when use position:absolut right now i use position: fixed */
-/* @media (min-height: 1025px) and (orientation: portrait), (min-width: 1366px) {
-	#content-wrap {
-		padding-bottom: 14em;
-	}
-} */
 /* media query for set font-size and spacing on bigger screens */
 @media (min-width: 1024px) {
 	nav {
@@ -328,7 +328,6 @@ button[type='submit'] {
 	}
 }
 
-/* Sets fonts and hides on mid screens. .content-wrap is for when position:absolut is used */
 @media (max-width: 768px) {
 	#content-wrap {
 		padding-bottom: 2em;
@@ -341,6 +340,7 @@ button[type='submit'] {
 		visibility: hidden;
 	}
 }
+
 /* Sets the pages in smaller screens */
 @media (max-width: 640px) {
 	#content-wrap {
@@ -422,6 +422,9 @@ button[type='submit'] {
 		margin-left: 0;
 		margin-right: 0;
 	}
+	.small-screen-space {
+		margin-top: 1.5em;
+	}
 }
 /*--------------------------------------------------------------------- Media Queries Form*/
 @media (min-width: 992px) {
@@ -457,14 +460,14 @@ button[type='submit'] {
 .content-wrap {
 	padding-bottom: 2em;
 }
+
 /* spacing and placement for the social icons at the bottom of the page */
 .footer-right {
 	float: right;
 	padding: 0.4em 0.2em 0 0;
 }
-/* save the positon:absolute for the future even it dosent do anything */
+
 #footer {
-	position: absolute;
 	position: fixed;
 	bottom: 0;
 	left: 0;
