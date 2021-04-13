@@ -316,6 +316,8 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 
 - Thanks to Dominic Fraser who has a great explanation of how to put your footer in place. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
+- Thanks to codeSTACKr who has a good youtube channel to learn and understand flexbox a little better [codeSTACKr](https://www.youtube.com/watch?v=qqDH0T6K5gY) I have used some code from there.
+
 ## Content
 
 - The text used in the explonations (rules and storys) is taken from wikipedia.
