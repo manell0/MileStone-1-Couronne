@@ -42,7 +42,7 @@
 ### Current User Goals:
 1. As a current user, I want to navigate to information about rules and history, as well as social links. As well as the opportunity to contact the couronne site for any questions.
    
-   - All these criteria are met. Rules and story are top navigation bar at the top. Contact and social links in the footer. Also possibility to download the rules in PDF.
+   - All these criteria are met. Rules and story are in the navigation bar at the top. Contact and social links in the footer. Also possibility to download the rules in PDF.
 
 ## Manual Testing
 
