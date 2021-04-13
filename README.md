@@ -82,10 +82,12 @@ The most important requirements were to create a responsive and static website w
 
 5. As a new user, I Want to easily have the ability to contact couronne
 
+6. As a new user, I want to se a video about the game.
+
 ### Current Fans Goals:
 
 1. As a current user, I want to navigate to information about rules and history, as well as social links. As well as the opportunity to contact the couronne site for any questions. Thats it!
-2. Want to be able to watch any videos about the game
+2. Want to be able to watch some videos of the game
 
 ## Development Planes
 
@@ -113,7 +115,7 @@ With these goals in mind, a strategy table was created to determine the trade-of
   - The user will be looking for:
     - Rules of the game
     - History Information
-    - Contact details
+    - Contact ability
     - Social Links
 
 - ##### Functionality Requirements
@@ -196,7 +198,7 @@ Each page of the website features a consistent responsive navigational system:
 
 #### Header Logo
 
-- Headline text that matches the page you are on in every page.
+- Headline text that matches the page content are on every page.
 
 #### Header Navigation Bar and footer which are fixed
 
@@ -249,13 +251,14 @@ Each page of the website features a consistent responsive navigational system:
 ### Additional Languages Used
 
 - [x] [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-  - A small function of JavaScript is used for my go-back button on the video page
+  - A small function of JavaScript is used for my go-back button on the video page (movie.html)
 
 ### Frameworks, Libraries & Programs Used
 
 - Bootstrap 4.3.1 used
 - Flexbox used for my text areas
 - Font Awsome used
+- Google fonts
 
 [Back to the top](#table-of-contents)
 
@@ -266,6 +269,7 @@ Each page of the website features a consistent responsive navigational system:
 # Deployment
 
 - This project was developed using Visual Studio Code, committed to git and pushed to GitHub using the upload file-system on github.
+- Some updates was done direct in edit mode on github.
 
 ## Deploying on GitHub Pages
 
@@ -337,7 +341,8 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 
 - The image on the index.html was sourced from nordiskagalleriet in Sweden (Creative Commons-licenses)
 
-  - I have emailed and asked the owner (Klong) if I could use the image.
+  - I have emailed and asked the owner (Klong) if I could use the image located on my index.html page.
+   - I have received an answer from my request if I could use the image and there were no problems 
 
 - The other two images was find on the internet with the licens open commond license
 
