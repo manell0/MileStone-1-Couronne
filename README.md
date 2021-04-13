@@ -58,7 +58,7 @@ The most important requirements were to create a responsive and static website w
 
 - People who already like couronne
 - People who want to learn couronne
-- Users who like board games
+- Users who like board games in general
 
 - #### Potential Users Interviews
 
@@ -66,7 +66,7 @@ The most important requirements were to create a responsive and static website w
 
   - Some people I interviewed wanted to know more about the origins and history behind the game.
 
-  - Some people I asked said that the game's parts such as game rings and queues, size of the game surface were important to be able to find out.
+  - Some potential users I asked said that the game's parts such as game rings and queues, size of the game surface were important to be able to find out.
 
 ## User Stories
 
@@ -85,6 +85,7 @@ The most important requirements were to create a responsive and static website w
 ### Current Fans Goals:
 
 1. As a current user, I want to navigate to information about rules and history, as well as social links. As well as the opportunity to contact the couronne site for any questions. Thats it!
+2. Want to be able to watch any videos about the game
 
 ## Development Planes
 
@@ -148,10 +149,12 @@ Wireframe mockups were created in a Figma Workspace with providing a positive us
 The main colours used throughout the website are a mixture of Blue, Some brown and White with gray/blue accents.
 
 The chosen color scheme is a reflection of the nerdy little group expected to use this site.
+- I Find the color combination on site [COLORS](https://coolors.co/)
 
 ### Typography
 
 The pairing of the fonts Open Sans and Exo 2 is used throughout the website with Sans Serif as the fallback font in case of import failure.
+- I use [Google fonts](https://fonts.google.com/) for my fonts used on the site
 
 ### Picture
 
@@ -185,14 +188,15 @@ Each page of the website features a consistent responsive navigational system:
 - [ x ] Contact Form - The form is validated (https://formdump.codeinstitute.net/).
 
 ### Existing Features
-
+- Page with the rules and a fancy image
+- Page with the history and an nice picture 
 - Opportunity to watch a video that is linked from the three main pages.
 - Validated contact page
 - Opportunity to download Couronne rules on PDF format
 
 #### Header Logo
 
-- Headline text that matches the page you are on.
+- Headline text that matches the page you are on in every page.
 
 #### Header Navigation Bar and footer which are fixed
 
@@ -201,6 +205,10 @@ Each page of the website features a consistent responsive navigational system:
 #### Social Icons
 
 - Social Icons - The icons appear on each page and are appropriate representations of the social media platforms.
+   - facebook.com
+   - youtube.com
+   - linkedin.com
+   
 
 ## Features to Implement in the future
 
@@ -227,6 +235,7 @@ Each page of the website features a consistent responsive navigational system:
 - Had difficulty getting my footer in place. Took help from google and found Dominic Fraser. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
 - Hassle with margins distance and spacing has been a common occurrence when I built this site
+   - On this problems the [Css Tricks](https://css-tricks.com/) site helpt me. I have taken inspiration and code technologi from there
 
 
 # Technologies Used
@@ -321,8 +330,8 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 
 ## Content
 
-- The text used in the explonations (rules and storys) is taken from wikipedia.
-- Go Back script taken from that i use in the movie.html file [W3 Schools](https://www.w3schools.com/jsref/met_his_back.asp)
+- The text used in the explonations (rules and storys) is taken from [wikipedia](https://sv.wikipedia.org/wiki/Couronne).
+- Go Back script taken from [W3 Schools](https://www.w3schools.com/jsref/met_his_back.asp) that i use in the movie.html file
 
 ## Media
 
