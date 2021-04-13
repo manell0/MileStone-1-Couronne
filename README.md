@@ -23,15 +23,16 @@ If you want to improve this board game that is available in all schools in Swede
    2. [Additional Languages Used](#Additional-Languages-Used)
    3. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 6. [Testing](#Testing)
-7. [Deployment](#Deployment)
+     - [Go to the Testing file](testing.md)
+8. [Deployment](#Deployment)
    1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
    2. [Forking the Repository](#Forking-the-Repository)
    3. [Creating a Clone](#Creating-a-Clone)
-8. [Credits](#Credits)
+9. [Credits](#Credits)
    1. [Content](#Content)
    2. [Media](#Media)
    3. [Code](#Code)
-9. [Acknowledgements](#Acknowledgements)
+10. [Acknowledgements](#Acknowledgements)
 
 # Introduction
 
