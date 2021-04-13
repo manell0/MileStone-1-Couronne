@@ -1,6 +1,6 @@
-# Couronne, The Classic Bord Game
+# Couronne, The Classic Board Game
 
-![The Markup from responsivedesign](assets/images/Responsivedesign-Screenshot.jpg)
+![The Markup from responsive design](assets/images/Responsivedesign-Screenshot.jpg)
 
 ## Milestone project 1 (Code Institute)
 
@@ -39,7 +39,7 @@ If you want to improve this board game that is available in all schools in Swede
 # Introduction
 
 This little site was designed mainly for nerds who already like the board game couronne.
-Since the site is simple and minimal, I also hope to attract people who like board games in general
+Since the site is simple and minimal, I also hope to attract people who like board games in general.
 
 The focus of the website is to create an easy way to access the rules of the classic board game couronne. The story behind the game is also on this page as customer surveys have shown that it is interesting.
 
@@ -76,33 +76,33 @@ The most important requirements were to create a responsive and static website w
 
 1. As a new user, I want to easily navigate through the website to find the relevant content, effortlessly.
 
-2. As a new user, I want to learn more about the classic bord game Couronne and the background in order to better understand the charm of the game..
+2. As a new user, I want to learn more about the classic board game Couronne and the background in order to better understand the charm of the game..
 
 3. As a new user, I want to easily find links to rules and history of the game.
 
 4. As a new user, I want to easily navigate to Couronne's social links to keep track of the latest news and changes.
 
-5. As a new user, I Want to easily have the ability to contact couronne
+5. As a new user, I Want to easily have the ability to contact couronne.
 
-6. As a new user, I want to se a video about the game.
+6. As a new user, I want to see a video about the game.
 
 ### Current Fans Goals:
 
-1. As a current user, I want to navigate to information about rules and history, as well as social links. As well as the opportunity to contact the couronne site for any questions. Thats it!
-2. Want to be able to watch some videos of the game
+1. As a current user, I want to navigate to information about rules and history, as well as social links. As well as the opportunity to contact the couronne site for any questions.
+2. Want to be able to watch some videos of the game.
 
 ## Development Planes
 
-| **_[Stategy](#Strategy)_** | **_[Scope](#Scope)_** | **_[Structure](#Structure)_** | **_[Skeleton](#Skeleton)_** | **_[Surface](#Surface)_** |
+| **_[Strategy](#Strategy)_** | **_[Scope](#Scope)_** | **_[Structure](#Structure)_** | **_[Skeleton](#Skeleton)_** | **_[Surface](#Surface)_** |
 | -------------------------- | --------------------- | ----------------------------- | --------------------------- | ------------------------- |
 
 ### Strategy
 
 With these goals in mind, a strategy table was created to determine the trade-off between importance and viability with the following results:
 
-**_[Link to Stredegy Trade-off as PDF](assets/strategy-trade-off.pdf)_**
+**_[Link to Strategy Trade-off as PDF](assets/strategy-trade-off.pdf)_**
 
-![Spredsheet Strategy](assets/images/SharedScreenshot.jpg)
+![Spreadsheet Strategy](assets/images/SharedScreenshot.jpg)
 
 ### Scope
 
@@ -124,33 +124,33 @@ With these goals in mind, a strategy table was created to determine the trade-of
   - The user will be able to:
     - Easily navigate through the site in order to find the information they want.
     - Be able to find links to external sites in order to:
-      - Find out more about board games and its comunity to meet others with similar interests.
+      - Find out more about board games and its community to meet others with similar interests.
     - Contact the site via contact page and social media links.
 
 ### Structure
 
-The information architecture was organized in a hierarchial tree structure in order to ensure that users could navigate through the site with ease and efficiency, with the following results:
-![Hierarchial tree structure](assets/images/couronne-structure.png)
+The information architecture was organized in a hierarchical tree structure in order to ensure that users could navigate through the site with ease and efficiency, with the following results:
+![Hierarchical tree structure](assets/images/couronne-structure.png)
 
 ### Skeleton
 
-Wireframe mockups were created in a Figma Workspace with providing a positive user experience in mind:
+Wireframe mockup were created in a Figma Workspace with providing a positive user experience in mind:
 
 **_[Link to Figma Wireframes as PDF](assets/couronne-new.pdf)_**
 
-![Wireframes screenShot as pdf](assets/images/Figma-Screenshot.jpg)
+![Wireframes screenShot as PDF](assets/images/Figma-Screenshot.jpg)
 [Back to the top](#table-of-contents)
 
 ### Surface
 
-[Markup from: ami.responsivedesign.is](http://ami.responsivedesign.is/)
-![The Markup from responsivedesign](assets/images/Responsivedesign-Screenshot.jpg)
+[Markup from: ami.responsive design.is](http://ami.responsivedesign.is/)
+![The Markup from responsive design](assets/images/Responsivedesign-Screenshot.jpg)
 
 ## Design
 
 ### Color Scheme
 
-The main colours used throughout the website are a mixture of Blue, Some brown and White with gray/blue accents.
+The main colors used throughout the website are a mixture of Blue, Some brown and White with gray/blue accents.
 
 The chosen color scheme is a reflection of the nerdy little group expected to use this site.
 - I Find the color combination on site [COLORS](https://coolors.co/)
@@ -185,7 +185,7 @@ Each page of the website features a consistent responsive navigational system:
 
 - The Home, Rule and History Page is divided into two columns on desktops and one column on mobile devices.
   On mobile devices, all content is stacked in a column.
-  The video (movie.html) Page have an back button for easy navigation to the page you visit last.
+  The video (movie.html) Page have a back button for easy navigation to the page you visit last.
 
 #### Contact Page
 
@@ -193,7 +193,7 @@ Each page of the website features a consistent responsive navigational system:
 
 ### Existing Features
 - Page with the rules and a fancy image
-- Page with the history and an nice picture 
+- Page with the history and a nice picture 
 - Opportunity to watch a video that is linked from the three main pages.
 - Validated contact page
 - Opportunity to download Couronne rules on PDF format
@@ -210,14 +210,14 @@ Each page of the website features a consistent responsive navigational system:
 #### Social Icons
 
 - Social Icons - The icons appear on each page and are appropriate representations of the social media platforms.
-   - facebook.com
-   - youtube.com
-   - linkedin.com
+   - [Facebook](https://www.facebook.com/)
+   - [YouTube](https://www.youtube.com/)
+   - [LinkedIn](https://www.linkedin.com/)
    
 
 ## Features to Implement in the future
 
-- [ x ] Make the contact page a separate page where you can write a message directly on the site and not just an email to link.
+- [ x ] Make the contact page a separate page where you can write a message directly on the site and not just a email to link.
   **Done. Finished and ready!**
 
   - [ x ] Make a separate page where you can watch a video with an go-back link button.
@@ -226,7 +226,7 @@ Each page of the website features a consistent responsive navigational system:
 - ### Merchandise Shop
 
 - #### Feature
-  - set up an shop where the Couronne can sell their merchandise directly to couronne players online.
+  - set up a shop where the Couronne can sell their merchandise directly to couronne players online.
   - #### Reason for not featuring in this release
     - JavaScript and/or Python needed to implemented.
 
@@ -234,19 +234,19 @@ Each page of the website features a consistent responsive navigational system:
 
 # Issues and Bugs
 
-- My mentor thought I should make my first suggestion a little more fansy, so I set up the navigation bar at the top to make the page a little more spacious.
+- My mentor thought I should make my first suggestion a little more fancy, so I set up the navigation bar at the top to make the page a little more spacious.
   So now I have two variants of my page. And it has taken a lot of my time!
 
-- Had difficulty getting my footer in place. Took help from google and found Dominic Fraser. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+- Had difficulty getting my footer in place. Took help from Google and found Dominic Fraser. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
 - Hassle with margins distance and spacing has been a common occurrence when I built this site
-   - On this problems the [Css Tricks](https://css-tricks.com/) site helpt me. I have taken inspiration and code technologi from there
+   - On these problems the [CSS Tricks](https://css-tricks.com/) site helped me. I have taken inspiration and code technology from there.
 
 - Have problem to fix a button style on my movie.html page
-   - I found the solution on Stack Owerflow [Gold Pearl on stack Overflow](https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap)
+   - I found the solution on Stack Overflow [Gold Pearl on stack Overflow](https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap)
    
 - When I come back from validating my contact form, the form is not clean.
-   - Found the solution [On this page]( http://www.java2s.com/Tutorial/JavaScript/0200__Form/Resettingaformonpageload.htm). A JavaScript that i used
+   - Found the solution [On this page](http://www.java2s.com/Tutorial/JavaScript/0200__Form/Resettingaformonpageload.htm). A JavaScript that i used.
 
 
 # Technologies Used
@@ -266,7 +266,7 @@ Each page of the website features a consistent responsive navigational system:
 
 - [Bootstrap 4.3.1 used](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - Flexbox used for my text areas
-- [Font Awsome used](https://fonts.google.com/)
+- [Font Awesome used](https://fonts.google.com/)
 - [Google fonts](https://fonts.google.com/)
 
 [Back to the top](#table-of-contents)
@@ -277,12 +277,12 @@ Each page of the website features a consistent responsive navigational system:
 
 # Deployment
 
-- This project was developed using Visual Studio Code, committed to git and pushed to GitHub using the upload file-system on github.
-- Some updates was done direct in edit mode on github.
+- This project was developed using Visual Studio Code, committed to git and pushed to GitHub using the upload file-system on GitHub.
+- Some updates was done direct in edit mode on GitHub.
 
 ## Deploying on GitHub Pages
 
-To deploy this page to GitHub Pages from its GitHub repository, the following steps shuld taken:
+To deploy this page to GitHub Pages from its GitHub repository, the following steps should have taken:
 
 1. Log into [GitHub or create an account](https://github.com/).
 2. Locate the GitHub Repository.
@@ -310,7 +310,7 @@ How to run this project locally:
 2. After installation, restart the browser.
 3. Log into [GitHub or create an account](https://github.com/).
 4. Locate the GitHub Repository.
-5. Click the green "GitPod" button in the top right corner of the repository. This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+5. Click the green "GitPod" button in the top right corner of the repository. This will trigger a new GitPod workspace to be created from the code in GitHub where you can work locally.
 
 How to run this project within a local IDE, such as VSCode:
 
@@ -339,13 +339,13 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
 
 - Thanks to Dominic Fraser who has a great explanation of how to put your footer in place. [The fix page](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
-- Thanks to [codeSTACKr](https://www.youtube.com/watch?v=qqDH0T6K5gY) who has a good youtube channel to learn and understand flexbox a little better  I have used some code from there.
+- Thanks to [codeSTACKr](https://www.youtube.com/watch?v=qqDH0T6K5gY) who has a good YouTube channel to learn and understand flexbox a little better  I have used some code from there.
 
-- Tanks to [Gold Pearl on stack Overflow](https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap) for the fix of override any default properties in bootstrap. I used it on my Go Back Button on the movie.html page.
+- Tanks to [Gold Pearl on stack overflow](https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap) for the fix of override any default properties in bootstrap. I used it on my Go Back Button on the movie.html page.
 
 ## Content
 
-- The text used in the explonations (rules and storys) is taken from [wikipedia](https://sv.wikipedia.org/wiki/Couronne).
+- The text used in the explanations (rules and story) is taken from [Wikipedia](https://sv.wikipedia.org/wiki/Couronne).
 - Go Back script taken from [W3 Schools](https://www.w3schools.com/jsref/met_his_back.asp) that i use in the movie.html file
 
 ## Media
@@ -355,19 +355,19 @@ Further reading and troubleshooting on cloning a repository from GitHub [**_here
   - I have emailed and asked the owner (Klong) if I could use the image located on my index.html page.
    - I have received an answer from my request if I could use the image and there were no problems 
 
-- The other two images was find on the internet with the licens open commond license
+- The other two images was find on the internet with the license Creative Commons-licenses
 
-- Video find on [youtube](https://www.youtube.com/embed/vBPb4YcOW-4)
+- Video find on [YouTube](https://www.youtube.com/embed/vBPb4YcOW-4)
 
 ## Code
 
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 
 - [Stack Overflow](https://stackoverflow.com/)
-- [W3Schools](https://www.w3schools.com/) used alot, and the back button in my movie.html came from there.
+- [W3Schools](https://www.w3schools.com/) used a lot, and the back button in my movie.html came from there.
 - [Bootstrap](https://getbootstrap.com/) used for my grid system throughout the site
 - [Font Awesome](https://fontawesome.com/) used for my icons
-- [Css Tricks](https://css-tricks.com/) used for various spacing tricks and placement technology
+- [CSS Tricks](https://css-tricks.com/) used for various spacing tricks and placement technology
 - [COLORS](https://coolors.co/)
 - [Google fonts](https://fonts.google.com/) used for my fonts (Exo 2 and Open Sans)
 
