@@ -1,5 +1,4 @@
-# Couronne, The Classic Board Game (https://manell0.github.io/MileStone-1-Couronne/index.html)
-
+# Couronne, The Classic Board Game 
 ![The Markup from responsive design](assets/images/Responsivedesign-Screenshot.jpg)
 
 ## Milestone project 1 (Code Institute)
@@ -36,7 +35,8 @@ If you want to improve this board game that is available in all schools in Swede
    3. [Code](#Code)
 10. [Acknowledgements](#Acknowledgements)
 
-# Introduction
+# Introduction (https://manell0.github.io/MileStone-1-Couronne/index.html)
+
 
 This little site was designed mainly for nerds who already like the board game couronne.
 Since the site is simple and minimal, I also hope to attract people who like board games in general.
@@ -377,4 +377,5 @@ The developer consulted multiple sites in order to better understand the code th
 - I would like to thank my mentor, Owonikoko Oluwaseun, for her help and guidance throughout this process.
 
   [Back to the top](#table-of-contents)
+
 
