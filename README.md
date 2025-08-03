@@ -3,6 +3,8 @@
 
 ## Milestone project 1 (Code Institute)
 
+(https://manell0.github.io/MileStone-1-Couronne/index.html)
+
 This is a website that explains and tells the rules and story of a classic board game called couronne.
 If you want to improve this board game that is available in all schools in Sweden, this is the place to be!
 
@@ -35,8 +37,7 @@ If you want to improve this board game that is available in all schools in Swede
    3. [Code](#Code)
 10. [Acknowledgements](#Acknowledgements)
 
-# Introduction (https://manell0.github.io/MileStone-1-Couronne/index.html)
-
+# Introduction 
 
 This little site was designed mainly for nerds who already like the board game couronne.
 Since the site is simple and minimal, I also hope to attract people who like board games in general.
@@ -377,5 +378,6 @@ The developer consulted multiple sites in order to better understand the code th
 - I would like to thank my mentor, Owonikoko Oluwaseun, for her help and guidance throughout this process.
 
   [Back to the top](#table-of-contents)
+
 
 
