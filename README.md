@@ -1,4 +1,4 @@
-# Couronne, The Classic Board Game
+# Couronne, The Classic Board Game (https://manell0.github.io/MileStone-1-Couronne/index.html)
 
 ![The Markup from responsive design](assets/images/Responsivedesign-Screenshot.jpg)
 
@@ -377,3 +377,4 @@ The developer consulted multiple sites in order to better understand the code th
 - I would like to thank my mentor, Owonikoko Oluwaseun, for her help and guidance throughout this process.
 
   [Back to the top](#table-of-contents)
+
